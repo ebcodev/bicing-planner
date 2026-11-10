@@ -1,0 +1,16 @@
+[project]
+name = "citibik"
+version = "0.1.0"
+description = "Bicing Planner: Barcelona bike-share trip planner (desktop app) with TypeSafe Jev"
+requires-python = ">=3.10"
+dependencies = [
+    "typesafe-sdk>=0.6.0",
+    "openpyxl>=3.1",
+    "customtkinter>=6.0.0",
+    "tkintermapview>=1.32",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.22.3",
+]
